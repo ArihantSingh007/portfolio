@@ -9,9 +9,11 @@
 </head>
 
 <body>
-
+  <div id="progress-bar"></div>
+<button id="topBtn">↑</button>
 <nav>
     <div class="logo">Portfolio</div>
+<button id="themeBtn">🌙</button>
 
     <ul>
         <li><a href="#home">Home</a></li>
@@ -24,7 +26,7 @@
 
 <section class="hero" id="home">
     <h1>Hi, I'm <span>Arihant Singh</span></h1>
-    <p>Web Developer | Designer | Student</p>
+    <p id="typing"></p>
     <button class="btn" onclick="scrollToSection()">View My Work</button>
 </section>
 
@@ -90,7 +92,7 @@
 </section>
 
 <footer>
-    © 2026 Arihant Singh | Portfolio
+    © <span id="year"></span> Arihant Singh | Portfolio
 </footer>
 
 <script src="script.js"></script>
